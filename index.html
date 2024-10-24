@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/terminal_logo.788c297d.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="author" content="mrLuisFer" />
+    <meta name="theme-color" content="#282a36" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600&family=JetBrains+Mono:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0b9946e474.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>
+      PingAI
+    </title>
+    <meta
+      name="title"
+      content="PingAI"
+    />
+    <meta
+      name="description"
+      content="Pong"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta
+      property="og:title"
+      content="PingAI"
+    />
+    <meta
+      property="og:description"
+      content="Pong"
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="PingAI"
+    />
+    <meta
+      property="twitter:description"
+      content="Pong"
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
+    <script type="module" crossorigin src="/assets/index.d0cf6c96.js"></script>
+    <link rel="stylesheet" href="/assets/index.67c9134b.css">
+  </head>
+  <body>
+    <main class="app" id="app">
+      <section id="collapseHeader" class="baseMinimalHeader">
+        <button
+          data-text="Extend Header"
+          title="Extend Header"
+          id="extendHeader"
+          class="collapse__commonBtn collapse__commonBtn--arrow"
+        >
+          <i class="fa-solid fa-angle-down"></i>
+        </button>
+        <button data-text="Clear" title="Clear" class="collapse__commonBtn">
+          <i class="fa-solid fa-broom"></i>
+        </button>
+      </section>
+      <header class="header" id="header">
+        <div class="header__menu--container">
+          <button
+            class="header__commonBtn"
+            id="headerMenuIcon"
+            title="Show Menu"
+          >
+            <i class="fa-solid fa-ellipsis"></i>
+          </button>
+          <div class="header__menu hidden" id="headerMenu">
+            <ul>
+              <li>PingAI</li>
+            </ul>
+          </div>
+          <button
+            class="header__commonBtn"
+            id="collapseHeaderBtn"
+            title="Collapse Header"
+          >
+            <i class="fa-solid fa-angle-up"></i>
+          </button>
+        </div>
+        <div class="header__icons">
+          <a
+            href="https://mrluisfer-blog.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="header__link header__icons--container"
+            data-text="Blog"
+          >
+            <i class="fa-solid fa-book-open"></i>
+            <p>PumpFun</p>
+          </a>
+          <button
+            data-text="Clear"
+            id="clearIcon"
+            class="header__icons--container"
+          >
+            <i class="fa-solid fa-broom"></i>
+            <p>Clear</p>
+          </button>
+        </div>
+      </header>
+      <section class="heroMsg" id="heroMsg">
+        <p>Welcome to a PingAI.</p>
+        <p>
+          You can start by typing the command <span>"help"</span> to know the
+          other commands
+        </p>
+      </section>
+
+      <section class="terminal" id="terminal">
+        <ul class="commandList" id="command-list"></ul>
+        <section class="command">
+          <p class="command__user"><span class="success">user</span>@user $</p>
+          <input
+            class="command__input"
+            type="text"
+            id="command-input"
+            autofocus
+            autocomplete="false"
+            spellcheck="false"
+          />
+        </section>
+      </section>
+    </main>
+    
+  </body>
+</html>
